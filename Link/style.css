@@ -1,0 +1,25 @@
+a{
+    color: red;
+    text-decoration: none; /*to remove underline*/
+    font-size: 20px;
+    background-color: none;
+    padding: 10px 10px;
+    border: 2px solid black;
+
+}
+
+a:hover{
+    color: white;
+    background-color: black;
+}
+
+a:active{
+    color: blue;
+    background-color: rgb(152, 133, 169);
+}
+
+a:visited{
+    color: yellow;
+    background-color: red;
+}
+/* visited, so it will show visited (yellow)*/
